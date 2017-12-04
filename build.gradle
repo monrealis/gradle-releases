@@ -1,9 +1,13 @@
 // https://github.com/researchgate/gradle-release
 
 plugins {
-  id 'net.researchgate.release' version '2.6.0'
+    id 'net.researchgate.release' version '2.6.0'
 }
 
 apply plugin: 'java'
 
 // afterReleaseBuild.dependsOn uploadArchives
+
+release {
+    useAutomaticVersion = true
+}
