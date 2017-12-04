@@ -9,5 +9,4 @@ apply plugin: 'java'
 // afterReleaseBuild.dependsOn uploadArchives
 
 release {
-    useAutomaticVersion = true
 }
